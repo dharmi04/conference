@@ -1,4 +1,6 @@
 import React from "react"
+import pdeuimage1 from '../assets/images/pdeu2.jpg'
+import pdeuimage2 from '../assets/images/pdeu3.jpg'
 import "../assets/css/aboutpdeu.css"
 
 export default function AboutPDEU() {
@@ -6,7 +8,7 @@ export default function AboutPDEU() {
     <div>
       <div className="pdeu-img-container">
         <img
-          src="https://f000.backblazeb2.com/file/hp-cloud/Conference/about+pdeu.png"
+          src= {pdeuimage2}
           className="pdeu-img"
           alt="pdeu-img"
         />
@@ -22,7 +24,7 @@ export default function AboutPDEU() {
       <div className="about-spt-container">
         <div className="pdeu-img-container">
           <img
-            src="https://f000.backblazeb2.com/file/hp-cloud/Conference/spt.png"
+            src={pdeuimage1}
             className="pdeu-img"
             alt="pdeu-img"
           />

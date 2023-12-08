@@ -9,13 +9,13 @@ export default function Sponsor() {
       </div>
 
       <div className="tab-container">
-        <div className="spe-img">
+        {/* <div className="spe-img">
           <img
             src="https://f000.backblazeb2.com/file/hp-cloud/Conference/nserb+logo.png"
             alt="sponsor"
             className="spon-img-css"
           />
-        </div>
+        </div> */}
         <div className="sponsor-img">
           <img
             src="https://yt3.ggpht.com/ytc/AMLnZu9uaJOm2FF3SRle0wXBzjoPQPwG0VHX4i1bgnSJ=s900-c-k-c0x00ffffff-no-rj"
@@ -30,34 +30,34 @@ export default function Sponsor() {
             className="spon-img-css"
           />
         </div>
-        <div className="spe-img">
+        {/* <div className="spe-img">
           <img
             src="https://f000.backblazeb2.com/file/hp-cloud/Conference/acs.png"
             alt="sponsor"
             className="spon-img-css"
           />
-        </div>
-        <div className="spe-img">
+        </div> */}
+        {/* <div className="spe-img">
           <img
             src="https://f000.backblazeb2.com/file/hp-cloud/Conference/SPE+PDEU+Logo+With+White+Blue+Text.png"
             alt="sponsor"
             className="spon-img-css"
           />
-        </div>
-        <div className="spe-img">
+        </div> */}
+        {/* <div className="spe-img">
           <img
             src="https://f000.backblazeb2.com/file/hp-cloud/iadc.png"
             alt="sponsor"
             className="spon-img-css"
           />
-        </div>
-        <div className="spe-img">
+        </div> */}
+        {/* <div className="spe-img">
           <img
             src="https://f000.backblazeb2.com/file/hp-cloud/Conference/fipi.png"
             alt="sponsor"
             className="spon-img-css"
           />
-        </div>
+        </div> */}
 
         {/* <div className="spe-img">
         <img
@@ -65,11 +65,11 @@ export default function Sponsor() {
             alt="sponsor"
             className="spon-img-css"
           /></div> */}
+        {/* <div className="tabs"></div>
         <div className="tabs"></div>
         <div className="tabs"></div>
         <div className="tabs"></div>
-        <div className="tabs"></div>
-        <div className="tabs"></div>
+        <div className="tabs"></div> */}
       </div>
     </div>
   )
