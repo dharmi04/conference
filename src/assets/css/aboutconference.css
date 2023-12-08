@@ -4,6 +4,12 @@
 }
 .about-heading {
   text-align: center;
+  
+}
+.about-subheading{
+  text-align: left;
+  font-size: 20px;
+  margin: 20px;
 }
 .about-para-container {
   text-align: justify;
@@ -11,4 +17,9 @@
 .about-para-container p {
   font-size: 18px;
   margin: 20px;
+}
+
+.areas{
+  margin-left:30px;
+
 }

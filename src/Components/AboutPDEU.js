@@ -16,15 +16,7 @@ export default function AboutPDEU() {
       </h1>
       <div className="about-pdeu-text">
         <p className="about-pdeu">
-        Pandit Deendayal Energy University (PDEU), formerly known as Pandit Deendayal Petroleum University (PDPU), was established by
-         Gujarat Energy Research Management Institute (GERMI) as a Private University through the State Act with a vision “To emerge as
-         a world-class Institution of Excellence in Energy Education, Research and Innovation which will prepare and sensitize the youth 
-         and ultimately the society for radical yet sustainable societal transformation”. This objective is being addressed through several 
-         specialized and well-planned undergraduate and postgraduate programs and intense research initiatives in science, technology, management, 
-         and humanities. Today it has nine centres of excellence, viz. International Automobile, Siemens, Center for Bio-fuel & Bioenergy studies, 
-         Solar Research & Development Center, Center of Excellence in Geothermal Energy, Drilling & Stimulation Center, Center of Excellence in Climate
-         Change, Innovation and Incubation Center and Water treatment management centre. PDEU ranks 1<sup>st </sup>  Private University in Gujarat with NAAC accredited, “A++” grade (3.52/4). 
-         It is also ISO 14001:2015 and ISO 9001:2015 certified Institute. PDEU is the only private university in Gujarat to get autonomous status from the University Grant Commission (UGC).      </p>
+        Pandit Deendayal Energy University (PDEU) was established through Gujarat Act No. 14 of 2007 on 4 April 2007 at Gandhinagar, Gujarat (State). Based on our teaching and research activities in the energy field, followed by the recommendations made by the Hon. Prime Minister Shri Narendra Modiji, during his VIII PDPU Convocation address on 21 November 2020, changed the name of PDPU to an Energy University. We are very glad to inform you that the Government of Gujarat has published an ordinance in the Government of Gujarat Gazette for renaming PDPU as Pandit Deendayal Energy University (PDEU). PDEU (PDPU) primarily aims to be known as the institution of excellence of the country in Engineering, Management, and Liberal Arts, to develop skilled graduates to work towards nation-building and offers undergraduate, postgraduate, and doctoral programs, and intensive research projects in every branch.      </p>
       </div>
 
       <div className="about-spt-container">
@@ -44,13 +36,7 @@ export default function AboutPDEU() {
         </p>
         <div className="about-pdeu-text">
           <p className="about-pdeu">
-          School of Energy Technology, a constituent school of Pandit Deendayal Energy University, was started in the year 2007 to provide an excellent academic program in Petroleum Engineering. 
-          Over the years, it ventured into the other energy sector to tap the broad spectrum of the energy basket. 
-          The School has eight major departments focusing on all the domains under the umberlla on energy. Since its inception, petroleum engineering has been the flagship course of the entire university. 
-          The department’s strong partnerships with regional government bodies, research institutes and industries open vast opportunities for researchers and academicians to get 
-          involved in world-class research, which helps them to grow and excel in their professional careers. 
-          The department has a four-year undergraduate (B.Tech) programme in Petroleum  and Petrochemical Engineering, a two-year graduate (M.Tech) course in Petroleum Engineering and PhD programs.
-          The B.Tech in Petroleum Engineering is accredited by the National Board of Accreditation (NBA) under tier I category.   
+          The School of Energy Technology (SOET) was a constituent school of the PDEU. The School of Petroleum Technology (SPT) was established in 2007 with the objective of offering a high-quality academic curriculum in the field of Petroleum Engineering. Over the course of time, the organization expanded its operations into several sectors within the energy industry in order to access a wide range of energy sources. Currently, the educational institution accommodates a total of eight academic departments. The Department of Petroleum Engineering has served as the prominent department of PDEU. The department's robust collaborations with regional government entities, research institutions, and enterprises provide extensive prospects for its students, researchers, and academics to engage in high-quality research, thereby facilitating their professional development and advancement. The department offers a comprehensive curriculum for students interested in petroleum engineering, including a four-year undergraduate degree (B.Tech), a two-year Masters program (M.Tech), and Ph.D programs in several interdisciplinary research fields.
 
           </p>
         </div>
