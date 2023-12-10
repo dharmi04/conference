@@ -4,11 +4,15 @@
 }
 
 .text-container {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   margin-top: 30px;
   margin-bottom: 80px;
+  padding-left: 30px;
+}
+.text-container a{
+  color: blue;
 }
 
 .callforpaper-text {
@@ -17,6 +21,10 @@
   margin: 0;
   margin-left: 30px;
   text-align: center;
+}
+
+.imp-dates{
+  padding-left:30px ;
 }
 
 .button-container {
