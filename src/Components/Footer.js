@@ -4,6 +4,7 @@ import {BiCopyright} from "react-icons/bi"
 import {FaTwitter} from "react-icons/fa"
 import {ImLinkedin2} from "react-icons/im"
 import {ImFacebook} from "react-icons/im"
+
 export default function Footer() {
   return (
     <div>
@@ -65,6 +66,9 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="made-by-encode">
+          <p>Made with love & expertise by Encode</p>
       </div>
     </div>
   )

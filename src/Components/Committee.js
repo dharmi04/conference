@@ -12,7 +12,7 @@ const Committee = () => {
           <h3 className="title-subheading">Organizing Committee</h3>
           <div className="names">
             <h4>CHIEF-PATRON</h4>
-            Prof. S. Sundar Manoharan,
+            Prof. S. Sundar Manoharan
             <br />
             Director General, PDEU
           </div>
@@ -23,9 +23,9 @@ const Committee = () => {
             Director, SOET, PDEU
             <br />
             <p></p>
-            Prof. Dhaval Pujara,
+            Col (Dr) Rakesh Kumar Shrivastawa
             <br />
-            Director SOT, PDEU
+            Registrar, PDEU
           </div>
           <div className="names">
             <h4>CHAIRS</h4>
@@ -45,69 +45,62 @@ const Committee = () => {
           </div>
           <div className="names">
             <h4>CO-CONVENER</h4>
-            Dr. Achinta Bera,
+            Dr. Amit Verma,
             <br />
             SOET, PDEU
+            <br />
+            Dr. Paul Naveen
+            <br />
+            SoET, PDEU
           </div>
           <div className="names">
             <h4>TREASURERS</h4>
-            Dr. Balasubramanian Ragunathan,
-            <br />
-             SOET, PDEU
-           <br />
-            Dr. Hari Sreenivasan
-            <br />
-            SOET, PDEU
-            <br />
-            Mr. Hari Pavan Sriram Yalamati
-            <br />
-            SOET, PDEU
+            Gaurav Hazarika
           </div>
-
         </div>
 
         <div className="subheading">
-          <h3>INTERNATIONAL ADVISORY COMMITTEE</h3>
+          <h3>Organizing Committee Members </h3>
           <div className="subheading-details">
-            Dr. A.M. Kannan, <br />
-            <h3 className="committe-location">Arizona State University, USA</h3>
+          Dr. Achinta Bera, <br />
+            <h3 className="committe-location">PDEU</h3>
           </div>
           <div className="subheading-details">
-          Dr. Marta Duenas Diez, <br />
-            <h3 className="committe-location">LIFTE H2, Boston, USA</h3>
+          Dr. Amit Verma, <br />
+            <h3 className="committe-location">PDEU</h3>
           </div>
           <div className="subheading-details">
-            Dr. Bishnu  P Bastakoti, <br />
-            <h3 className="committe-location">North Carolina Agriculture and Technical State University, USA</h3>
+          Dr. Paul Naveen, <br />
+            <h3 className="committe-location">PDEU</h3>
           </div>
           <div className="subheading-details">
-            Dr. Neha Chaturvedi <br />
-            <h3 className="committe-location">North Carolina State University, USA</h3>
+          Dr. N Madhavan <br />
+            <h3 className="committe-location">PDEU</h3>
           </div>
           <div className="subheading-details">
-            Dr. Pei Meng <br />
-            <h3 className="committe-location">Universiti Malaya, Malaysia</h3>
+          Dr. P Sivakumar <br />
+            <h3 className="committe-location">PDEU</h3>
           </div>
           <div className="subheading-details">
-            Prof. Daewon Pak, <br />
-            <h3 className="committe-location">Seoul National University of Science and Technology, South Korea</h3>
+          Dr. Rohit Srivastava, <br />
+            <h3 className="committe-location">PDEU</h3>
           </div>
           <div className="subheading-details">
-            Dr. Diogo M.F Santos, <br />
-            <h3 className="committe-location">Instituto Superior Tecnico, Portuagal</h3>
+          Dr. Ragunathan Balasubramanian, <br />
+            <h3 className="committe-location">PDEU</h3>
           </div>
           <div className="subheading-details">
-            Dr. Mahesh Gangishetty, <br />
-            <h3 className="committe-location">Mississippi State University, USA</h3>
+          Dr. Vivek Ramalingam, <br />
+            <h3 className="committe-location">PDEU</h3>
           </div>
           <div className="subheading-details">
-            Prof. Japan Trivedi <br />
-            <h3 className="committe-location">University of Alberta, Canada</h3>
+          Dr. Shanker Krishna <br />
+            <h3 className="committe-location">PDEU</h3>
           </div>
           <div className="subheading-details">
-            Prof. Ryosuke Okuno, <br />
+          Dr. Lakshmanarao Jeeru, <br />
             <h3 className="committe-location">
-              The University of Texas at Austin, USA
+            PDEU
             </h3>
           </div>
           {/* <div className="subheading-details">
@@ -115,119 +108,168 @@ const Committee = () => {
             National University of Singapore, SG
           </div> */}
           <div className="subheading-details">
-            Prof. Stefan Iglauer, <br />
+          Dr. Hari Srinivasan, <br />
             <h3 className="committe-location">
-              Edith Cowan University, Australia
+              PDEU
             </h3>
             <div className="subheading-details">
-              Prof. Deepak Dubal, <br />
+            Dr. Maunish Shah, <br />
               <h3 className="committe-location">
-                Queensland University of Technology, Brisbane, Australia
+                PDEU
               </h3>
             </div>
             <div className="subheading-details">
-              Prof. Dmitry Yakhvarov, <br />
+            Dr. Namrata Bist, <br />
               <h3 className="committe-location">
-                A.E ARbuzov institute of Organic and Physical Chemistry, Kazan,
-                Russia
+                PDEU
               </h3>
             </div>
           </div>
-          {/* <div className="subheading-details">
-            Dr. Hussein Hoteit, <br />
-            KAUST, Kingdom of Saudi Arabia
-          </div> */}
+          <div className="subheading-details">
+          Mr. Gaurav Hazarika, <br />
+            PDEU
+          </div>
         </div>
 
         <div className="subheading">
-          <h3>NATIONAL ADVISORY COMMITTEE </h3>
+          <h3>Advisory Committee Members </h3>
           {/* <div className="subheading-details">
             Dr. Anirbid B Sircar, <br />
             <h3 className="committe-location">Director, SOET, PDEU</h3>
           </div> */}
           <div className="subheading-details">
-            Prof. Arnab Dutta, <br />
+          Col (Dr) Rakesh Kumar Shrivastawa, <br />
+            <h3 className="committe-location">Registrar, PDEU</h3>
+          </div>
+          <div className="subheading-details">
+          Dr. Anirbid Sircar, <br />
+            <h3 className="committe-location">Director, SoET, PDEU</h3>
+          </div>
+          <div className="subheading-details">
+          Dr. Hadi Belhaj, <br />
+            <h3 className="committe-location">Khalifa University, UAE</h3>
+          </div>
+          <div className="subheading-details">
+          Prof. Reza Barati, <br />
+            <h3 className="committe-location">Kansas University, USA</h3>
+          </div>
+          <div className="subheading-details">
+          Dr. Emad W. Al-Shalabi, <br />
+            <h3 className="committe-location">Khalifa University, UAE</h3>
+          </div>
+          <div className="subheading-details">
+          Dr. Munawar Shaik, <br />
+            <h3 className="committe-location">UAE University, Al-Ain UAE</h3>
+          </div>
+          <div className="subheading-details">
+          Dr. Anand Gupta , <br />
+            <h3 className="committe-location">ONGC India </h3>
+          </div>
+          <div className="subheading-details">
+          Dr. Ashkan Jahanbani Ghahfarokhi, <br />
+            <h3 className="committe-location">NTNU Norway</h3>
+          </div>
+          <div className="subheading-details">
+          Dr. Francisco Arguelles Vivas, <br />
+            <h3 className="committe-location">ExxonMobil, Texas, USA</h3>
+          </div>
+          <div className="subheading-details">
+          Mr. Sujit Mitra, <br />
+            <h3 className="committe-location">IRS, ONGC India</h3>
+          </div>
+          <div className="subheading-details">
+          Prof. Suryendu Dutta , <br />
             <h3 className="committe-location">IIT Bombay</h3>
           </div>
           <div className="subheading-details">
-            Prof. D.N. Srivastava, <br />
-            <h3 className="committe-location">CSIR-CSMCRI Bhavnagar</h3>
+          Prof. Dhaval Pujara, <br />
+            <h3 className="committe-location">Director, SoT, PDEU</h3>
           </div>
           <div className="subheading-details">
-            Prof. Anugrah Singh, <br />
-            <h3 className="committe-location">IIT Guwahati</h3>
+          Dr. Praghnesh Bhatt, <br />
+            <h3 className="committe-location">Dean, SoET, PDEU</h3>
           </div>
           <div className="subheading-details">
-            Dr. Jayeeta Chattopadhyay, <br />
-            <h3 className="committe-location">Amity University, Ranchi</h3>
+          Prof. S. S. Kachhwaha, <br />
+            <h3 className="committe-location"> Dean, SoT, PDEU</h3>
           </div>
           <div className="subheading-details">
-            Dr. Ajay Kumar, <br />
-            <h3 className="committe-location">IIT Tirupati</h3>
+          Dr. Bhawanisingh Desai, <br />
+            <h3 className="committe-location"> Dean-R&D, PDEU</h3>
           </div>
           <div className="subheading-details">
-            Dr. Pankaj Khanna, <br />
-            <h3 className="committe-location">IIT Gandhinagar</h3>
+          Prof. Vishvesh J Badheka, <br />
+            <h3 className="committe-location"> Dean-Academic Affairs, PDEU</h3>
           </div>
           <div className="subheading-details">
-            Dr. Arup Mukherjee, <br />
-            <h3 className="committe-location">IIT Bhilai</h3>
+          Dr. Rajesh Patel, <br />
+            <h3 className="committe-location">Dean-Admissions, PDEU </h3>
           </div>
           <div className="subheading-details">
-            Dr. Venkata Krishnan, <br />
-            <h3 className="committe-location">IIT Mandi</h3>
+          Prof. Nigam Dave, <br />
+            <h3 className="committe-location"> Director, SLS, PDEU</h3>
           </div>
           <div className="subheading-details">
-            Dr. Sanyasinaidu Boddu, <br />
-            <h3 className="committe-location">INST Mohali</h3>
+          Dr. Ritu Sharma, <br />
+            <h3 className="committe-location"> Dean, FoLS, PDEU </h3>
           </div>
           <div className="subheading-details">
-           Dr. Rik Rani Koner, <br />
-            <h3 className="committe-location">IIT Mandi</h3>
+          Prof. T.P Singh, <br />
+            <h3 className="committe-location">  Dean-Student Affairs, PDEU</h3>
+          </div>
+
+
+
+          <div className="subheading-details">
+          Prof. R.K. Vij, <br />
+            <h3 className="committe-location"> Dean-Placement, PDEU</h3>
           </div>
           <div className="subheading-details">
-            Dr. Aditi Halder, <br />
-            <h3 className="committe-location">IIT Mandi</h3>
+          Dr. Uttam Bhui, <br />
+            <h3 className="committe-location"> HoD-Petroleum Eng., PDEU</h3>
           </div>
           <div className="subheading-details">
-            Dr. Tarun Kumar Naiya, <br />
-            <h3 className="committe-location">IIT(ISM) Dhanbad</h3>
+          Prof. Anugrah Singh, <br />
+            <h3 className="committe-location">IIT-Guwahati, India </h3>
           </div>
           <div className="subheading-details">
-            Prof. Tarun Gupta, <br />
-            <h3 className="committe-location">IIT kanpur</h3>
+          Dr. Pankaj Khanna, <br />
+            <h3 className="committe-location"> IIT Gandhinagar, India</h3>
           </div>
           <div className="subheading-details">
-          Dr. Debasish Das, <br />
-            <h3 className="committe-location"> IISc Bangalore</h3>
+          Dr. Vikram Vishal, <br />
+            <h3 className="committe-location"> IIT Bombay</h3>
           </div>
           <div className="subheading-details">
-          Dr. Samrat Gupta, <br />
-            <h3 className="committe-location"> IIM Ahmedabad</h3>
+          Prof. Jitendra Sangwai, <br />
+            <h3 className="committe-location">IIT Madras</h3>
+          </div>
+
+
+
+          <div className="subheading-details">
+          Prof. Ajay Mandal, <br />
+            <h3 className="committe-location"> IIT(ISM) Dhanbad</h3>
           </div>
           <div className="subheading-details">
-          Dr. Jay Singh, <br />
-            <h3 className="committe-location"> BHU Varanasi</h3>
+          Prof. Keka Ojha, <br />
+            <h3 className="committe-location"> IIT(ISM) Dhanbad</h3>
           </div>
           <div className="subheading-details">
-          Prof. N.C Pradhan, <br />
-            <h3 className="committe-location">  IIT Kharagpur</h3>
+          Prof. Satish Kumar Sinha, <br />
+            <h3 className="committe-location">RGIPT India</h3>
           </div>
           <div className="subheading-details">
-          Prof. S.K Maity, <br />
-            <h3 className="committe-location"> IIT Hyderabad</h3>
-          </div>
-          {/* <div className="subheading-details">
-          Mr. Balaiha Swamy, <br />
-            <h3 className="committe-location"> Indian Oil Corporation Ltd </h3>
+          Dr. Sandeep Kulkarni, <br />
+            <h3 className="committe-location"> IIT Kharagpur</h3>
           </div>
           <div className="subheading-details">
-          Mr. C.H Seeta Ram, <br />
-            <h3 className="committe-location">  Bharat Petroleum Corporation Ltd </h3>
-          </div> */}
+          Dr. Himanshu Sharma, <br />
+            <h3 className="committe-location"> IIT Kanpur</h3>
+          </div>
         </div>
 
-        <div className="subheading">
+        {/* <div className="subheading">
           <h3>LOCAL ADVISORY COMMITTEE</h3>
           <div className="subheading-details">
             Prof. Tarun Shah, <br />
@@ -308,9 +350,9 @@ const Committee = () => {
           <div className="subheading-details-2">Dr. Akash Patel</div>
           <div className="subheading-details-2">Dr. Kaushal Kishor</div>
           <div className="subheading-details-2">Dr. Amrita Chakraborty</div>
-        </div>
+        </div> */}
 
-        <div className="subheading-2">
+        {/* <div className="subheading-2">
           <h3>SCHOLARS/STUDENTS ORGANIZING COMMITTEE </h3>
           <div className="subheading-details-2">Ms. Avni Goswami</div>
           <div className="subheading-details-2">Ms. Sneha Lavate</div>
@@ -322,7 +364,7 @@ const Committee = () => {
           <div className="subheading-details-2">Mr. Anshul</div>
           <div className="subheading-details-2">Mr. Kiran B</div>
           <div className="subheading-details-2">Mr. Shaikh Fazeel</div>
-        </div>
+        </div> */}
       </div>
 
       {/* </div> */}
