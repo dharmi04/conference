@@ -39,7 +39,7 @@ const Committee = () => {
           </div>
           <div className="names">
             <h4>CONVENER</h4>
-            Dr. Rohit Srivastava,
+            Dr. Achinta Bera,
             <br />
             SOET, PDEU
           </div>

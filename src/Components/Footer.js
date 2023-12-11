@@ -12,14 +12,13 @@ export default function Footer() {
         <div className="parts">
           <ul>
             <li>
-              1st International Conference on Green Hydrogen for global
-              decarbonization
+            THE INTERNATIONAL CONFERENCE ON OIL & GAS FOR ENERGY SECURITY
             </li>
           </ul>
         </div>
         <div className="parts_l">
           <ul>
-            <li>Green Hydrogen A-Z</li>
+    
             <li>
               <a href="https://conference.icghgd.com/committee">Committee </a>
             </li>
