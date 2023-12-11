@@ -4,7 +4,6 @@ import {BiCopyright} from "react-icons/bi"
 import {FaTwitter} from "react-icons/fa"
 import {ImLinkedin2} from "react-icons/im"
 import {ImFacebook} from "react-icons/im"
-import FavoriteIcon from '@mui/icons-material/Favorite';
 
 export default function Footer() {
   return (
@@ -69,7 +68,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="made-by-encode">
-          <h1>Made with <FavoriteIcon color="secondary" fontSize="large" />  by Encode</h1>
+          <p>Made with love & expertise by Encode</p>
       </div>
     </div>
   )
