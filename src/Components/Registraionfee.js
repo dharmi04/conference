@@ -5,153 +5,97 @@ const Registraionfee = () => {
     <>
       <div className="regFee">
         <div className="regHead">
-          <h2>Registration</h2>
+          <h2>Registration fee</h2>
         </div>
-        <div className="regNotes">
-          <p>The last Date to Register online is 28<sup>th</sup> February, 2023</p>
-        </div>
+        
         <div className="regData">
           <div className="regDataField">
-            <h4 className="dataFieldHeader">
-              Early Bird Registration Fees (valid till 10<sup>th</sup> February, 2023)
-            </h4>
             <div className="regDataTable">
               <table>
                 <thead>
+                <p className="table-heading">Early bird registration up to 30 December 2023</p>
                   <tr>
                     <th>Category</th>
-                    <th data-priority="2">INR(₹)</th>
-                    <th data-priority="3">USD($)</th>
+                    {/* <th data-priority="2">Early bird registration up to 30 December 2023 */}
+                    <th>Indian* Delegate</th>
+                    <th>Foreign** Delegate
+                      </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>UG/PG/PhD Students</td>
+                    <td>Industry</td>
+                    <td>8000</td>
+                    <td>300</td>
+            
+                  </tr>
+                  <tr>
+                    <td>Academic and Research Insttiute</td>
+                    <td>6000</td>
+                    <td>200</td>
+                  </tr>
+                  <tr>
+                    <td>Research scholar/Post Doc and Research Associates with a valid ID card</td>
                     <td>4000</td>
                     <td>150</td>
                   </tr>
                   <tr>
-                    <td>Faculty</td>
-                    <td>6000</td>
-                    <td>300</td>
+                    <td>UG/PG student with a valid ID card</td>
+                    <td>2000</td>
+                    <td>100</td>
                   </tr>
                   <tr>
-                    <td>Industry</td>
-                    <td>8000</td>
-                    <td>500</td>
+                    <td>Spouse / Accompanying person without registration kit</td>
+                    <td>2000</td>
+                    <td>100</td>
                   </tr>
                 </tbody>
               </table>
-            </div>
-          </div>
-          <div className="regDataField">
-            <h4 className="dataFieldHeader">
-              Registration Fees (valid till 28<sup>th</sup> February, 2023)
-            </h4>
-            <div className="regDataTable">
+
               <table>
                 <thead>
+                <p className="table-heading">Registration after 30 December 2023 & Spot Registration</p>
                   <tr>
                     <th>Category</th>
-                    <th data-priority="2">INR(₹)</th>
-                    <th data-priority="3">USD($)</th>
+                    {/* <th data-priority="2">Early bird registration up to 30 December 2023 */}
+                    <th>Indian* Delegate</th>
+                    <th>Foreign** Delegate
+                      </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>UG/PG/PhD Students</td>
+                    <td>Industry</td>
+                    <td>10000</td>
+                    <td>400</td>
+            
+                  </tr>
+                  <tr>
+                    <td>Academic and Research Insttiute</td>
+                    <td>8000</td>
+                    <td>300</td>
+                  </tr>
+                  <tr>
+                    <td>Research scholar/Post Doc and Research Associates with a valid ID card</td>
                     <td>5000</td>
                     <td>200</td>
                   </tr>
                   <tr>
-                    <td>Faculty</td>
-                    <td>8000</td>
-                    <td>500</td>
+                    <td>UG/PG student with a valid ID card</td>
+                    <td>3000</td>
+                    <td>200</td>
                   </tr>
                   <tr>
-                    <td>Industry</td>
-                    <td>10000</td>
-                    <td>650</td>
+                    <td>Spouse / Accompanying person without registration kit</td>
+                    <td>3000</td>
+                    <td>200</td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
-          <div className="regDataField">
-            <h4 className="dataFieldHeader">
-              Late / On Spot  Registration Fees 
-            </h4>
-            <div className="regDataTable">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Category</th>
-                    <th data-priority="2">INR(₹)</th>
-                    <th data-priority="3">USD($)</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>UG/PG/PhD Students</td>
-                    <td>6000</td>
-                    <td>250</td>
-                  </tr>
-                  <tr>
-                    <td>Faculty</td>
-                    <td>10000</td>
-                    <td>650</td>
-                  </tr>
-                  <tr>
-                    <td>Industry</td>
-                    <td>12000</td>
-                    <td>950</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
+          
 
-        <div className="regDetails">
-          <p>*All Prices including GST<br/>
-           **10% additional discount if 5 & above nos. of Students/delegates pay
-            at once while registering for the conference from the same
-            organization.
-                      </p>
-          <p><b>Registration Fee Includes:</b>
-            <li> Conference kit (name tag, pen, notepad, etc.)</li>
-            <li>Lunch/high-tea/dinner on all days of the conference</li>
-            <li>Access to all technical sessions</li>
-            <li>Access to all exhibition stalls</li>
-            
-          </p>
-          <p> <b>Note: </b>Based on the request accommodation will be arranged and charges will be shared.</p>
-              <div className="button-container">
-        <button className="payment-button">
-          <a href="https://onlinepayment.pdpu.ac.in/conferences " rel="opener">Pay Here</a>
-        </button>
-      </div>
-      <p><center>After Payment Register Here</center></p>
-      <div className="button-container">
-        <button className="register-button">
-          <a href="https://forms.gle/mighpe7EFqzhmfZn6" rel="opener">Register Here</a>
-        </button>
-      </div>
-             <p> 
-         
-            For any quires, please email us at{" "}
-            <span>
-              <a className="url" href="mailto:green.hydrogen@pdpu.ac.in">
-                green.hydrogen@pdpu.ac.in
-              </a>
-            </span>{" "}
-            or{" "}
-            <span>
-              <a className="url" href="mailto:greenhydrogenpdpu@gmail.com">
-                greenhydrogenpdpu@gmail.com
-              </a>
-            </span>
-          </p>
         </div>
       </div>
     </>

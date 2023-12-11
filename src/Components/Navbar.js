@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react"
-import logo from "../assets/images/logo.png"
-import logo2 from "../assets/images/logo2.png"
+import logo from "../assets/images/logo.png";
+import logo1 from "../assets/images/logo.jpg";
+// import logo2 from "../assets/images/logo2.png"
 import "../assets/css/navbar.css"
 import {Link} from "react-router-dom"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
@@ -53,7 +54,7 @@ export default function Navbar() {
       <nav className="navbar">
         <div className="logo">
           <div className="logo-container">
-            <img className="icghd-logo" src={logo2} alt="Logo2" />
+            <img className="icghd-logo" src={logo1} alt="Logo2" />
             <img className="pdeu-logo" src={logo} alt="Logo" />
           </div>
         </div>
@@ -130,14 +131,9 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <a
-                href="https://drive.google.com/file/d/1vMPKQjEftY37k_AI7zozjw3l9VUHeZxl/view?usp=sharing"
-                className="nav-link"
-                target="_blank"
-                rel="noreferrer"
-              >
-                ITINERARY
-              </a>
+            <Link to="/sponsorship" className="nav-link">
+                SPONSORSHIP
+              </Link>
             </li>
             <li className="nav-item">
               <Link to="/contact" className="nav-link">
@@ -154,11 +150,11 @@ export default function Navbar() {
         </div>
       </nav>
 
-      <Marquee gradient={false} style={{color: "white"}}>
+      {/* <Marquee gradient={false} style={{color: "white"}}>
         {fetchedData.map((data) => (
           <Update key={data._id} update={data.update} />
         ))}
-      </Marquee>
+      </Marquee> */}
     </div>
   )
 }

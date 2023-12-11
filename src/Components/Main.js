@@ -30,15 +30,12 @@ export default function Main() {
       </div> */}
       <div className="HeroSection">
         <p className="MainHeading1">
-          1<sup className="heading-smallcase">st </sup> International Conference
-          on
-          <br />
-          GREEN HYDROGEN FOR GLOBAL DECARBONIZATION
+       The International Conference on Oil & Gas for Energy Security
           {/* </p> */}
           {/* <p className="MainHeading2"> */}
         </p>
         <p className="SecondSmallText">
-          March 17  - 18 <sup>th </sup>, 2023
+          February 16  - 17 <sup>th </sup>, 2024
         </p>
         <p className="ThirdSmallText">
           Pandit Deendayal Energy University
