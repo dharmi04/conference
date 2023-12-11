@@ -14,48 +14,51 @@ const Contact = () => {
         <div className="con-content">
           <ul>
             <li>
-              <p>General Inquiries & Sponsorship</p>
-              <a className="url" href="mailto:greenhydrogenpdpu@gmail.com">
-                greenhydrogenpdpu@gmail.com
+              <p>Contacts: </p>
+              <a className="url" href="mailto:icoges24@gmail.com">
+              icoges24@gmail.com
               </a>
             </li>
             <li>
               <p>Technical, Awards & Paper Submissions: </p>
-              <a className="url" href="mailto:Green.hydrogen@pdpu.ac.in">
-                Green.hydrogen@pdpu.ac.in
+              <a className="url" href="mailto:icoges@pdpu.ac.in">
+                icoges@pdpu.ac.in
               </a>
             </li>
             <h1 className="student-organisers">Organisers</h1>
             <li>
-              <p className="student-name">Rohit Srivastava (Convener)</p>
-              <a className="url" href="mailto:Rohit.s@spt.pdpu.ac.in">
-                Rohit.s@spt.pdpu.ac.in
+              <p className="student-name">Achinta Bera (Convener)</p>
+              <a className="url" href="mailto:achinta.bera@spt.pdpu.ac.in">
+                achinta.bera@spt.pdpu.ac.in
               </a>
+              <p>
+              Phone No. : <d href="tel:+917477593900">7477593900</d>
+              </p>
             </li>
             <li>
-              <p className="student-name student2">Sneha Sandeep Lavate</p>
-              <a className="url" href="mailto:Sneha.lphd20@spt.pdpu.ac.in">
-                Sneha.lphd20@spt.pdpu.ac.in
+              <p className="student-name student2">Amit Verma (Co-convener)</p>
+              <a className="url" href="mailto:amit.verma@spt.pdpu.ac.in">
+                amit.verma@spt.pdpu.ac.in
               </a>
-              <p>Phone No. : +917218511311</p>
+              <p>Phone No. : +9195767 86392</p>
             </li>
             <li>
-              <p className="student-name">Hari Pavan Sriram Yalamati</p>
-              <a className="url" href="mailto:Hari.yphd21@spt.pdpu.ac.in">
-                Hari.yphd21@spt.pdpu.ac.in
+              <p className="student-name">Paul Naveen (Co-convener)</p>
+              <a className="url" href="mailto:paul.naveen@spt.pdpu.ac.in">
+                paul.naveen@spt.pdpu.ac.in
               </a>
-              <p>Phone No. +919908242145 </p>
+              <p>Phone No. +9180510 50067 </p>
             </li>
             
           </ul>
         </div>
-        <ReactWhatsapp number="+917218511311" message="">
+        {/* <ReactWhatsapp number="+917218511311" message="">
           <div className="icon">
             <div className="whatsapp-icon">
               <img src="whatsapp.png" alt="whatsapp" />
             </div>
           </div>
-        </ReactWhatsapp>
+        </ReactWhatsapp> */}
       </div>
     </>
   )

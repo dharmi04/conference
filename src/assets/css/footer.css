@@ -80,6 +80,9 @@ a {
 .parts_l ul:nth-child(3){
          border-right: none;
 } */
+.made-by-encode{
+  
+}
 @media (max-width: 1170px) and (min-width: 1000px) {
   .footer-p1 {
     padding: 40px;
@@ -148,3 +151,4 @@ a {
     display: block;
   }
 }
+
