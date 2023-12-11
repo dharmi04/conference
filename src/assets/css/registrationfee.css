@@ -9,10 +9,10 @@
   color: #3a3a3a;
   /* background-color: #537ba8; */
 }
-.regHead {
+/* .regHead {
   width: 80%;
   margin: 4rem 0 0rem 0;
-}
+} */
 .regHead h2 {
   margin: 1rem 0;
   text-align: center;
@@ -22,39 +22,39 @@
   width: 80%;
 }
 .regDataField,
-.regDataTable {
+/* .regDataTable {
   width: 100%;
-}
+} */
 .regDataField {
   margin: 3rem 0;
 }
-table {
+/* table {
   width: 100%;
   border: 1px solid #eeeeee;
   background: #4cc5b31b;
-}
-thead {
+} */
+/* thead {
   background: #155b5b;
   display: flex;
   width: 100%;
   color: #fff;
   padding: (12px * 1.5) 0;
-}
+} */
 
-tr {
+/* tr {
   display: flex;
   width: 100%;
   padding: (12px * 1.5) 0;
   height: 3rem;
   text-align: center;
-  line-height: 3rem;
-}
-td:nth-child(1) {
+  line-height: 3rem; */
+
+/* td:nth-child(1) {
   padding-left: 2rem;
   text-align: left;
-}
+} */
 
-td{
+/* td{
   flex: 1 1 20%;
   text-align: center;
   color: black;
@@ -63,11 +63,17 @@ th {
   flex: 1 1 20%;
   text-align: center;
   color: white;
-}
+} */
 
 th {
   text-transform: uppercase;
 }
+.table-heading {
+  text-align: left;
+  font-size:x-large;
+  font-weight: bold;
+}
+
 
 h3,
 h4 {
@@ -122,4 +128,31 @@ h2 {
 }
 .url{
   color: blue;
+}
+
+@media only screen and (max-width: 768px) {
+  .regFee {
+    width: 90%; /* Adjust as needed for smaller screens */
+  }
+
+  .regHead h2 {
+    font-size: 28px;
+  }
+
+  .regDataField {
+    margin: 2rem 0;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  th, td {
+    flex: 1 1 50%;
+    text-align: center;
+  }
+
+  .table-heading {
+    font-size: large;
+  }
 }

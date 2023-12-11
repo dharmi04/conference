@@ -34,7 +34,49 @@ export default function CallForPaper() {
       <p>Conference dates:  16 and 17 Feb 2024</p>
        </div>
        
-
+<div>
+  <h1 className="callforpaper-heading">Advertisement in the Abstract Book</h1>
+  <p className="imp-dates">An Abstract Book will be published on this occasion. Advertisements are invited, for which the tariffs are:</p>
+  <table>
+    <thead>
+      <tr>
+        <th>S.No.</th>
+        <th>Category</th>
+        <th>Amount(INR)</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Back Cover(color)</td>
+        <td>75000</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Front Inside(color)</td>
+        <td>50000</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Back inside(color)</td>
+        <td>40000</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Full Page(color)</td>
+        <td>30000</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Full Page (B&W)</td>
+        <td>25000</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Half Page(color)</td>
+        <td>20000</td>
+      </tr>
+    </thead>
+  </table>
+</div>
 
 
 

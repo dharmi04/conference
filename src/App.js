@@ -11,6 +11,8 @@ import CallForPaper from "./Components/CallForPaper"
 import Awards from "./Components/Awards"
 import UpdatePost from "./Pages/UpdatePost"
 import EditPost from "./Pages/EditPost"
+// import Itenary from "./Components/Itenary"
+import Sponsorship from "./Components/Sponsorship"
 function App() {
   return (
     // <HashRouter>
@@ -39,6 +41,7 @@ function App() {
       <Route exact path="/news" element={<Awards />} />
       <Route exact path="/admin/updatepost" element={<UpdatePost />} />
       <Route exact path="/admin/editpost/:id" element={<EditPost />} />
+      <Route exact path="/sponsorship" element={<Sponsorship />} />
     </Routes>
     // </BrowserRouter>
   )

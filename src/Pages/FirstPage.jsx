@@ -20,7 +20,7 @@ const FistPage = () => {
       {/* <Cards /> */}
       {/* <Carousel /> */}
       <AboutPDEU />
-      <Sponsor />
+      {/* <Sponsor /> */}
       <Footer />
     </div>
   )
