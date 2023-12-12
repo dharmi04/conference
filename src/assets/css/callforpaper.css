@@ -42,10 +42,10 @@
   padding: 10px 20px;
   border-radius: 25px;
   border: none;
-  background-color: green;
+  background-color: #12486B;
 }
 .callforpaper-button:hover {
-  background-color: #4caf50;
+  background-color: #0690ec;
 }
 .submission-text {
   font-size: 25px;
@@ -83,7 +83,7 @@ table {
 
 th, td {
   padding: 10px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #12486B;
 }
 
 th {
