@@ -24,17 +24,8 @@ export default function CallForPaper() {
           (Impact Factor: 7.1)
         </p> */}
       </div>
-      <p className="">
-       <h1 className="callforpaper-heading">Important Dates</h1> 
-       <div className="imp-dates">
-       <p>Call for Abstracts deadline: 10 Jan 2024</p>
-      <p>Acceptance notification: 15 Jan 2024</p>
-      <p>Early registration deadline: 20 Jan 2024</p>
-      <p>Regular registration deadline: 30 Jan 2024</p>
-      <p>Conference dates:  16 and 17 Feb 2024</p>
-       </div>
-       
-<div>
+
+      <div>
   <h1 className="callforpaper-heading">Advertisement in the Abstract Book</h1>
   <p className="imp-dates">An Abstract Book will be published on this occasion. Advertisements are invited, for which the tariffs are:</p>
   <table>
@@ -78,10 +69,16 @@ export default function CallForPaper() {
   </table>
 </div>
 
-
-
-
-        
+      <p className="">
+       <h1 className="callforpaper-heading">Important Dates</h1> 
+       <div className="imp-dates">
+       <p>Call for Abstracts deadline: 10 Jan 2024</p>
+      <p>Acceptance notification: 15 Jan 2024</p>
+      <p>Early registration deadline: 20 Jan 2024</p>
+      <p>Regular registration deadline: 30 Jan 2024</p>
+      <p>Conference dates:  16 and 17 Feb 2024</p>
+       </div>
+              
       </p>
       <div className="button-container">
         {/* <button className="callforpaper-button">
