@@ -97,6 +97,8 @@ tr {
   padding-bottom: 20px;
 }
 
+
+
 @media (min-width: 500px) and (max-width: 600px) {
   .main-text-container {
     padding-top: 10%;

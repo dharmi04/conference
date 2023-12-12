@@ -3,7 +3,25 @@ import "../assets/css/aboutconference.css"
 
 export default function AboutConference() {
   return (
+    <>
+    
+    
+    
     <div className="about-container">
+      <div className="new-links">
+      <a className="form"target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeGIhteuX2bxYdQHRJVMJv3aBnht8A7Ew4YMI3Fwq_OfIvpMA/viewform?pli=1">
+        <button className="google-form">Google Form</button>    
+        </a>
+
+          <br />
+          <br />
+        <a href="https://docs.google.com/document/d/167ZOWSIqjOdUNWYpsyNI-2eZU_OG1Nof/edit" target="_blank">
+        <button className="abstract-template">
+          Abstract Template 
+        </button>
+
+        </a>
+    </div>
       <h1 className="about-heading">About Conference</h1>
       <div className="about-para-container">
         <p>
@@ -44,5 +62,6 @@ export default function AboutConference() {
           </ul>
         </div>
     </div>
+    </>
   )
 }
