@@ -78,16 +78,16 @@ export default function CallForPaper() {
       <p>Regular registration deadline: 30 Jan 2024</p>
       <p>Conference dates:  16 and 17 Feb 2024</p>
        </div>
-              
+
       </p>
       <div className="button-container">
-        {/* <button className="callforpaper-button">
-          <a href="https://hpurl.ga/abstract">Download the abstract template</a>
-        </button> */}
+        <button className="callforpaper-button">
+          <a href="https://docs.google.com/document/d/167ZOWSIqjOdUNWYpsyNI-2eZU_OG1Nof/edit?usp=sharing&ouid=109618269804736174356&rtpof=true&sd=true">Download the abstract template</a>
+        </button>
       </div>
 
       <p className="mail-text">
-        {/* Please submit your abstracts to <a href="https://forms.gle/a7g4aAtJZuepZmNdA"> Google Form</a> */}
+        Please submit your abstracts to <a href="https://forms.gle/RGKr3ohGs978TbkRA"> Google Form</a>
       </p>
       <Footer />
     </div>
