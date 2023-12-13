@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="parts">
           <ul>
             <li>
-            THE INTERNATIONAL CONFERENCE ON OIL & GAS FOR ENERGY SECURITY
+            INTERNATIONAL CONFERENCE ON OIL & GAS FOR ENERGY SECURITY
             </li>
           </ul>
         </div>
