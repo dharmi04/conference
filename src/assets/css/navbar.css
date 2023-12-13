@@ -114,7 +114,7 @@
     /* margin-left: 10%; */
     /* margin-left: 0;
     padding: 0 25px; */
-  }
+  
   .nav-up li {
     /* list-style:none; */
     display: none;
@@ -173,7 +173,7 @@
   .nav-main-menu li {
     border-top: 3px bold white;
   }
-
+}
 .dropdown {
   /* float: left; */
   overflow: hidden;
