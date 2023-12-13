@@ -42,6 +42,10 @@
   padding: 1.8em;
 }
 
+.mapouter{
+  margin:30px;
+}
+
 .Places {
   margin: 50px;
 }
@@ -58,9 +62,24 @@
   height: 300px;
   
 }
+.map-container {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 56.25%; /* Aspect ratio for responsive design (height: 56.25% of width) */
+  height: 0;
+}
+
+.map-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 .contact {
   margin-top: 20px;
+  margin-left: 30px;
 }
 .heading{
   text-align: center;
