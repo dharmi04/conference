@@ -13,20 +13,41 @@ import axios from "axios"
 
 // import { useRef,useEffect } from "react"
 export default function Navbar() {
-  const [fetchedData, setFetchedData] = useState([])
-  useEffect(() => {
-    axios
-      // This is for local development
-      // .get("http://localhost:5000/api/v1/updates")
+  // const [fetchedData, setFetchedData] = useState([])
+  // useEffect(() => {
+  //   axios
+  //     // This is for local development
+  //     // .get("http://localhost:5000/api/v1/updates")
 
-      // This is for production
-      .get("https://conferenceapi.onrender.com/api/v1/updates")
-      .then((res) => {
-        // console.log(res.data)
-        setFetchedData(res.data)
-      })
-      .catch((err) => console.log(err))
-  }, [])
+  //     // This is for production
+  //     .get("https://conferenceapi.onrender.com/api/v1/updates")
+  //     .then((res) => {
+  //       // console.log(res.data)
+  //       setFetchedData(res.data)
+  //     })
+  //     .catch((err) => console.log(err))
+  // }, [])
+
+  // const hamburgerr = document.querySelector(".hamburger")
+  // const navMenu = document.querySelector(".nav-main-menu")
+  // const [switchToggled, setSwitchToggled] = useState(false)
+  // const ToggleSwitch = () => {
+  //   switchToggled ? setSwitchToggled(false) : setSwitchToggled(true)
+  //   if (switchToggled === true) {
+  //     hamburgerr.classList.toggle("active")
+  //     navMenu.classList.toggle("active")
+  //   } else {
+  //     hamburgerr.classList.toggle("active")
+  //     navMenu.classList.toggle("active")
+  //   }
+  // }
+
+  //this below is the old toggle
+  // const toggle = () => {
+  //     hamburgerr.classList.toggle("active");
+  //     navMenu.classList.toggle("active");
+
+  //  };
 
   const hamburgerr = document.querySelector(".hamburger")
   const navMenu = document.querySelector(".nav-main-menu")
@@ -42,12 +63,6 @@ export default function Navbar() {
     }
   }
 
-  //this below is the old toggle
-  // const toggle = () => {
-  //     hamburgerr.classList.toggle("active");
-  //     navMenu.classList.toggle("active");
-
-  //  };
 
   return (
     <div className="header">
