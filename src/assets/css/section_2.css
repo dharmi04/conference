@@ -9,7 +9,7 @@
   display: none;
 }
 .heading {
-  font-size: 45px;
+  font-size: 36px;
   margin-top: 5%;
   /* margin-left: 17%; */
   margin-bottom: 3%;
@@ -29,6 +29,10 @@
   flex-wrap: wrap;
   /* flex-direction: column; */
   /* grid-column: 4; */
+}
+.text{
+  font-size:26px;
+  margin:30px;
 }
 .empty-cards {
   display: none;

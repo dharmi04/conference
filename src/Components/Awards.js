@@ -89,7 +89,7 @@ const Awards = () => {
       </div>
       <div className="contact">
           <h1>Contact Us at</h1>
-          <p> <FaEnvelope /> icoes@pdpu.ac.in </p>
+          <p> <FaEnvelope /> icoges@pdpu.ac.in </p>
           <div className="phone-number">
 
           <p> <FaPhone /> +91 7477593900 </p>
