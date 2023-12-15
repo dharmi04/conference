@@ -10,9 +10,9 @@ export default function CallForPaper() {
       <h1 className="callforpaper-heading">Call for Papers</h1>
       <div className="text-container">
         <p><b>Abstract submission guidelines:</b></p>
-        <p>The abstract of the paper should concisely articulate the contextual framework and purpose of the study, provide a succinct overview of the methodology employed, present preliminary findings, and emphasize noteworthy aspects of the research. The abstract should be constrained to a maximum of 500 words. </p>
+        <p>The abstract of the paper should concisely articulate the contextual framework and purpose of the study, provide a succinct overview of the methodology employed, present preliminary findings, and emphasize noteworthy aspects of the research. The abstract should be constrained to a maximum of 300 words. </p>
         <p><b>Paper Submission guidelines:</b></p>
-        <p>The abstract and full article may be submitted to the email address <a href="mailto:itcoges@pdpu.ac.in">itcoges@pdpu.ac.in. </a>The conference website <a href="www.icoges2024.com">www.icoges2024.com</a>will provide the author with submission details and requirements for abstract and complete paper preparation. The papers that have been submitted will undergo evaluation by the technical committee. All papers that are deemed acceptable will be incorporated into the electronic proceedings of the conference.  </p>
+        <p>The abstract may be submitted using Google Form given on the website. The submitted abstract will undergo evaluation by the technical committee. All abstracts that are deemed acceptable will be incorporated into the electronic proceedings of the conference.  </p>
         {/* <img src="ijhe.jpeg" alt="ijhe" />
         <p className="callforpaper-text">
           The selected papers will be published in <br />
