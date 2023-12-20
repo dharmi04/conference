@@ -70,7 +70,7 @@ th {
 }
 .table-heading {
   text-align: left;
-  font-size:x-large;
+  font-size: large;
   font-weight: bold;
 }
 
@@ -155,4 +155,16 @@ h2 {
   .table-heading {
     font-size: large;
   }
+}
+
+.payment-text{
+  text-align: center;
+  color: blue;
+  margin-top: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-payment{
+  color: blue;
 }

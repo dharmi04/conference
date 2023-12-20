@@ -13,7 +13,7 @@ const Registraionfee = () => {
             <div className="regDataTable">
               <table>
                 <thead>
-                <p className="table-heading">Early bird registration up to 30 December 2023</p>
+                <p className="table-heading">Early bird registration up to 20 January 2024</p>
                   <tr>
                     <th>Category</th>
                     {/* <th data-priority="2">Early bird registration up to 30 December 2023 */}
@@ -92,6 +92,10 @@ const Registraionfee = () => {
                   </tr>
                 </tbody>
               </table>
+              <div className="payment-text">
+
+              <a href="https://onlinepayment.pdpu.ac.in/conferences" className="text-payment"> Click here for Payment </a>
+              </div>
             </div>
           </div>
           
