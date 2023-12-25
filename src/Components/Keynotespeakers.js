@@ -27,11 +27,14 @@ export default function Keynote() {
           </div>
         </div>
         <div className="cards">
+          <div className="img-container">
+
           <img
             src="keynote-speakers/image-2.png"
             alt="speaker"
             className="speaker-img"
           />
+          </div>
           <div className="speaker-information">
             <h1>	Dr. Sandeep D. Kulkarni</h1>
             <h2>Associate Professor IIT Kharagpur, India</h2>
@@ -100,7 +103,31 @@ export default function Keynote() {
           <div className="speaker-information">
             <h1>	Professor Rakeshkumar Vij</h1>
             <h2>Dean Placement</h2>
-            <p>Dean Placement</p>
+            {/* <p>Dean Placement</p> */}
+          </div>
+        </div>
+        <div className="cards">
+          <img
+            src="keynote-speakers/image-8.png "
+            alt="speaker"
+            className="speaker-img"
+          />
+          <div className="speaker-information">
+            <h1>Prof. Anugrah Singh</h1>
+            <h2>IIT Guwahati</h2>
+            {/* <p>Dean Placement</p> */}
+          </div>
+        </div>
+        <div className="cards">
+          <img
+            src="keynote-speakers/image-9.png "
+            alt="speaker"
+            className="speaker-img"
+          />
+          <div className="speaker-information">
+            <h1>Dr. Prem Bikkina </h1>
+            <h2>Oklahoma State University, USA</h2>
+            {/* <p>Dean Placement</p> */}
           </div>
         </div>
 
