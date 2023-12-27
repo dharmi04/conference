@@ -9,10 +9,13 @@ import Navbar from "../Components/Navbar"
 import Sponsor from "../Components/Sponsor"
 import AboutConference from "../Components/AboutConference"
 import AboutPDEU from "../Components/AboutPDEU"
+import Header from "../Components/Header"
+import Importantdates from "../Components/Importantdates"
 
 const FistPage = () => {
   return (
     <div className="landing-page">
+      {/* <Header /> */}
       <Navbar />
       <Main />
       {/* <CountDown /> */}
@@ -20,6 +23,7 @@ const FistPage = () => {
       {/* <Cards /> */}
       {/* <Carousel /> */}
       <AboutPDEU />
+      <Importantdates />
       {/* <Sponsor /> */}
       <Footer />
     </div>
