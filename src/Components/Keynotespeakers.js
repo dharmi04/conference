@@ -21,8 +21,8 @@ export default function Keynote() {
           </div>
 
           <div className="speaker-information">
-            <h1>	Askhan Jahanbani Ghahfarokhi</h1>
-            <h2>Associate Professor NTNU Norway</h2>
+            <h1>	Prof. Askhan Jahanbani Ghahfarokhi</h1>
+            <h4>Department of Petroleum Engineering, NTNU Norway</h4>
             {/* <p>Some text</p> */}
           </div>
         </div>
@@ -36,9 +36,9 @@ export default function Keynote() {
           />
           </div>
           <div className="speaker-information">
-            <h1>	Dr. Sandeep D. Kulkarni</h1>
-            <h2>Associate Professor IIT Kharagpur, India</h2>
-            <p>Deysarkar Centre of Excellence in Petroleum Engineering</p>
+            <h1>	Prof. Sandeep D. Kulkarni</h1>
+            <h4>Deysarkar Centre of Excellence in Petroleum Engineering</h4>
+            <h4>IIT Kharagh4ur, India.</h4>
           </div>
         </div>
         <div className="cards">
@@ -50,12 +50,12 @@ export default function Keynote() {
             />
           </div>
           <div className="speaker-information">
-            <h1>Prof. Subrata Borgohain Gogoi</h1>
-            <h2>
-              Dibrugarh University, Assam, India.
-            </h2>
-             <p>Dean, Faculty of Earth Sciences and Energy
-              Professor & Head, Department of Petroleum Technology</p>
+            <h1>Prof. Subrata Borgohain Gogoi, </h1>
+            <h4>
+            Department of Petroleum Technology, Dibrugarh University, Assam, India.
+            </h4>
+             {/* <p>Dean, Faculty of Earth Sciences and Energy
+              Professor & Head, Department of Petroleum Technology</p> */}
           </div>
         </div>
         <div className="cards">
@@ -65,8 +65,8 @@ export default function Keynote() {
             className="speaker-img"
           />
           <div className="speaker-information">
-            <h1>Dr. Himanshu Sharma </h1>
-            <h2> Assistant Professor, IIT Kanpur, India</h2>
+            <h1>Prof. Himanshu Sharma </h1>
+            <h4> Department of Chemical Engineering, IIT Kanpur, India</h4>
             {/* <p>Some text</p> */}
           </div>
         </div>
@@ -77,8 +77,8 @@ export default function Keynote() {
             className="speaker-img"
           />
           <div className="speaker-information">
-            <h1>Dr. Pankaj Khanna</h1>
-            <h2>Asssistant Professor IIT Gandhinagar</h2>
+            <h1>Prof. Pankaj Khanna</h1>
+            <h4>Department of Earth Science, IIT Gandhinagar, India</h4>
             {/* <p>Some text</p> */}
           </div>
         </div>
@@ -89,21 +89,9 @@ export default function Keynote() {
             className="speaker-img"
           />
           <div className="speaker-information">
-            <h1>	Professor Anirbid Sircar</h1>
-            <h2>Director-School of Energy Technology </h2>
-            <p>Pandit Deendayal Energy University </p>
-          </div>
-        </div>
-        <div className="cards">
-          <img
-            src="keynote-speakers/image-7.png "
-            alt="speaker"
-            className="speaker-img"
-          />
-          <div className="speaker-information">
-            <h1>	Professor Rakeshkumar Vij</h1>
-            <h2>Dean Placement</h2>
-            {/* <p>Dean Placement</p> */}
+            <h1>Professor Anirbid Sircar</h1>
+            <h4>Pandit Deendayal Energy University, Gandhinagar, India  </h4>
+            {/* <p>Pandit Deendayal Energy University </p> */}
           </div>
         </div>
         <div className="cards">
@@ -113,8 +101,8 @@ export default function Keynote() {
             className="speaker-img"
           />
           <div className="speaker-information">
-            <h1>Prof. Anugrah Singh</h1>
-            <h2>IIT Guwahati</h2>
+            <h1>	Prof. Anugrah Singh</h1>
+            <h4>Department of Chemical Engineering, IIT Guwahati, India</h4>
             {/* <p>Dean Placement</p> */}
           </div>
         </div>
@@ -125,8 +113,21 @@ export default function Keynote() {
             className="speaker-img"
           />
           <div className="speaker-information">
-            <h1>Dr. Prem Bikkina </h1>
-            <h2>Oklahoma State University, USA</h2>
+            <h1>	Prof. Prem Bikkina, </h1>
+            <h4>Department of Chemical Engineering, Oklahoma State University, USA</h4>
+            {/* <p>Dean Placement</p> */}
+          </div>
+        </div>
+        <div className="cards">
+          <img
+            src="keynote-speakers/image.png"
+            // alt="speaker"
+            className="speaker-img"
+          />
+          <div className="speaker-information">
+            <h1>	Prof. Prashant Jadhawar, Department of Petroleum Engineering, </h1>
+            <h4>University of Aberdeen, UK
+</h4>
             {/* <p>Dean Placement</p> */}
           </div>
         </div>
