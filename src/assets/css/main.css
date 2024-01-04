@@ -97,11 +97,28 @@ tr {
   padding-bottom: 20px;
 }
 
+.logo-section-home{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem ;
+  margin-bottom: 4rem;
+}
 
+.logo-section-home img{
+  object-fit: contain;
+  opacity: 0.85;
+}
+.logos-main{
+  max-width: 10vw;
+}
 
 @media (min-width: 500px) and (max-width: 600px) {
   .main-text-container {
     padding-top: 10%;
+  }
+  .logos-main{
+    max-width: 13vw;
   }
 }
 @media (min-width: 600px) and (max-width: 750px) {
@@ -251,5 +268,16 @@ tr {
 .ThirdSmallText {
   font-size: clamp(20px, calc(1.25rem + ((1vw - 3.2px) * 0.7353)), 25px);
   color: #cde1ff;
-  padding-bottom: 7em;
+  padding-bottom: 2em;
+}
+
+
+@media (max-width: 400px) {
+  .logos-main{
+    max-width: 20vw;
+    margin-bottom: 2rem;
+  }
+  .logo-section-home {
+    gap: 1.3rem;
+  }
 }

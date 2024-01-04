@@ -67,13 +67,13 @@ export default function Navbar() {
   return (
     <div className="header">
       <div>
-        <div className="header-1">
-          <p className='text'> 
-              <span>ICOGES 2024 | </span>
-              <span>February 16 - 17</span>
-          </p>
-        </div>
+      <div className="header-1">
+        <p className='text-upper'> 
+            <span>ICOGES 2024 | </span>
+            <span>February 16 - 17</span>
+        </p>
       </div>
+    </div>
   
       <nav className="navbar">
         <div className="logo">

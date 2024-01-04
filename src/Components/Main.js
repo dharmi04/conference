@@ -1,5 +1,10 @@
 import React from "react"
 import "../assets/css/main.css"
+import img from '../assets/images/Logos/logo-2.jpeg'
+import img2 from '../assets/images/Logos/logo-3.jpeg'
+import img3 from '../assets/images/Logos/logo-4.jpeg'
+import img4 from '../assets/images/Logos/logo-5.jpeg'
+import img5 from '../assets/images/Logos/mat-corr.jpeg'
 
 export default function Main() {
   return (
@@ -30,7 +35,7 @@ export default function Main() {
       </div> */}
       <div className="HeroSection">
         <p className="MainHeading1">
-       The International Conference on Oil & Gas for Energy Security
+        The International Conference on Oil & Gas for Energy Security
           {/* </p> */}
           {/* <p className="MainHeading2"> */}
         </p>
@@ -43,6 +48,28 @@ export default function Main() {
           Gandhinagar, 
           Gujarat, <br /> India
         </p>
+        <section className="logo-section-home">
+          <img
+            src={img}
+            className="logos-main"
+          />
+          <img
+            src={img2}
+            className="logos-main"
+          />
+          <img
+            src={img3}
+            className="logos-main"
+          />
+          <img
+            src={img4}
+            className="logos-main"
+          />
+          <img
+            src={img5}
+            className="logos-main"
+          />
+        </section>
       </div>
     </div>
   )
