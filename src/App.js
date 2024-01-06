@@ -15,6 +15,11 @@ import EditPost from "./Pages/EditPost"
 import Sponsorship from "./Components/Sponsorship"
 import Dates from "./Pages/Dates"
 import ICOGES from "./Pages/ICOGES"
+import Management from "./Pages/Management"
+import Organizing from "./Pages/Organizing"
+import International from "./Pages/International"
+import National from "./Pages/National"
+import Students from "./Pages/Students"
 function App() {
   return (
     // <HashRouter>
@@ -46,6 +51,11 @@ function App() {
       <Route exact path="/sponsorship" element={<Sponsorship />} />
       <Route exact path="/importantdates" element={<Dates />} />
       <Route exact path="/ICOGES" element={<ICOGES />} />
+      <Route exact path="/Management" element={<Management />} />
+      <Route exact path="/organizing" element={<Organizing />} />
+      <Route exact path="/international" element={<International />} />
+      <Route exact path="/national" element={<National />} />
+      <Route exact path="/students" element={<Students />} />
     </Routes>
     // </BrowserRouter>
   )

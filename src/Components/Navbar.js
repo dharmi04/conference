@@ -177,11 +177,34 @@ export default function Navbar() {
                 THEME
               </Link>
             </li> */}
-            <li className="nav-item">
-              <Link to="/committee" className="nav-link">
-                COMMITTEES
-              </Link>
-            </li>
+
+              <li class="dropdown">
+                <div class="dropbtn">
+                  COMMITTEE
+                  <FontAwesomeIcon
+                    icon={faChevronDown}
+                    className="down-arrow-icon"
+                  />
+                </div>
+                <div class="dropdown-content">
+                  <Link to="/Management" className="nav-link">
+                    Management
+                  </Link>
+                  <Link to="/organizing" className="nav-link">
+                    Organizing Committee
+                  </Link>
+                  <Link to="/international" className="nav-link">
+                    International Advisory committee
+                  </Link>
+                  <Link to="/national" className="nav-link">
+                    National Advisory Committee
+                  </Link>
+                  <Link to="/students" className="nav-link">
+                    Students
+                  </Link>
+                </div>
+              </li>
+            
             <li className="nav-item">
               <Link to="/keynotespeakers" className="nav-link">
                 KEYNOTE SPEAKERS
