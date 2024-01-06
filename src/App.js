@@ -13,6 +13,8 @@ import UpdatePost from "./Pages/UpdatePost"
 import EditPost from "./Pages/EditPost"
 // import Itenary from "./Components/Itenary"
 import Sponsorship from "./Components/Sponsorship"
+import Dates from "./Pages/Dates"
+import ICOGES from "./Pages/ICOGES"
 function App() {
   return (
     // <HashRouter>
@@ -42,6 +44,8 @@ function App() {
       <Route exact path="/admin/updatepost" element={<UpdatePost />} />
       <Route exact path="/admin/editpost/:id" element={<EditPost />} />
       <Route exact path="/sponsorship" element={<Sponsorship />} />
+      <Route exact path="/importantdates" element={<Dates />} />
+      <Route exact path="/ICOGES" element={<ICOGES />} />
     </Routes>
     // </BrowserRouter>
   )

@@ -8,8 +8,8 @@ const Committee = () => {
     <div>
       <Navbar />
       <div className="committeewrap">
-        <div className="Page-title">
           <h3 className="title-subheading">Organizing Committee</h3>
+        <div className="Page-title">
           <div className="names">
             <h4>CHIEF-PATRON</h4>
             Prof. S. Sundar Manoharan
@@ -268,16 +268,14 @@ const Committee = () => {
             <h3 className="committe-location"> IIT Kanpur</h3>
           </div>
         </div>
-
-        {/* <div className="subheading">
-          <h3>LOCAL ADVISORY COMMITTEE</h3>
+       
+        <div className="subheading">
+          <h3>Students</h3>
           <div className="subheading-details">
-            Prof. Tarun Shah, <br />
-            <h3 className="committe-location">Registrar, PDEU Gandhinagar</h3>
+            <h3 className="committe-location">Isaac Wilson</h3>
           </div>
           <div className="subheading-details">
-            Prof. Anirbid B Sircar, <br />
-            <h3 className="committe-location">Director SOET, PDEU Gandhinagar</h3>
+            <h3 className="committe-location">Nguessan Kouassi Jean Patrick</h3>
           </div>
           <div className="subheading-details">
             Prof. T.P Singh, <br />
@@ -327,7 +325,7 @@ const Committee = () => {
           </div>
         </div>
 
-        <div className="subheading-2">
+        {/* <div className="subheading-2">
           <h3>ORGANIZING COMMITTEE </h3>
           <div className="subheading-details-2">Dr. Rohit Srivastava</div>
           <div className="subheading-details-2">Dr. Achinta Bera</div>

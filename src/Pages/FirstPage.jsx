@@ -19,11 +19,11 @@ const FistPage = () => {
       <Navbar />
       <Main />
       {/* <CountDown /> */}
-      <AboutConference />
+      {/* <AboutConference /> */}
       {/* <Cards /> */}
       {/* <Carousel /> */}
       <AboutPDEU />
-      <Importantdates />
+      {/* <Importantdates /> */}
       {/* <Sponsor /> */}
       <Footer />
     </div>

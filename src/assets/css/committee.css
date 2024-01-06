@@ -11,6 +11,9 @@
 .title {
   text-align: center !important;
 }
+.Page-title{
+  display: flex;
+}
 .Page-title h3 {
   padding-bottom: 1.2em;
 }

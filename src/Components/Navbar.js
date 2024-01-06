@@ -1,15 +1,18 @@
-import React, {useState, useEffect} from "react"
-import logo from "../assets/images/logo.png";
-import logo1 from "../assets/images/logo.jpg";
+import React, { useState, useEffect } from "react"
+import logo from "../assets/images/pdeu-logo.png";
+import logo1 from "../assets/images/conf-logo.png";
 // import logo2 from "../assets/images/logo2.png"
 import "../assets/css/navbar.css"
-import {Link} from "react-router-dom"
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {faChevronDown} from "@fortawesome/free-solid-svg-icons"
+import { Link } from "react-router-dom"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons"
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import Theme from "./Theme"
 import Marquee from "react-fast-marquee"
 import Update from "./Update"
 import axios from "axios"
+import file from '../assets/data/Brochure.pdf'
 
 // import { useRef,useEffect } from "react"
 export default function Navbar() {
@@ -63,25 +66,74 @@ export default function Navbar() {
     }
   }
 
+  // function to downloadpdf when button is clicked 
+  // const handleDownload = () => {
+  //   // Replace 'your-pdf-file.pdf' with the actual path or URL of your PDF file
+  //   const pdfUrl = 'https://f005.backblazeb2.com/file/ICOGES-Conference/Brochure+ICOGES-2024.pdf';
+
+  //   // Create a temporary link element
+  //   const link = document.createElement('a');
+  //   link.href = pdfUrl;
+  //   link.download = 'ICOGES-Brochure.pdf'; // Specify the name for the downloaded file
+
+  //   // Append the link to the body
+  //   document.body.appendChild(link);
+
+  //   // Trigger the click event on the link
+  //   link.click();
+
+  //   // Remove the link from the DOM
+  //   document.body.removeChild(link);
+  // };
 
   return (
     <div className="header">
-      <div>
-      <div className="header-1">
-        <p className='text-upper'> 
-            <span>ICOGES 2024 | </span>
-            <span>February 16 - 17</span>
-        </p>
+      <div className="most-upper">
+        <section className="upper-link">
+          <p><FontAwesomeIcon icon={faEnvelope} className="email-icon" /></p>
+          <a href="mailto:icoges@pdpu.ac.in" target="_BLANK">
+            <button className="button-85">
+              <p>icoges@pdpu.ac.in</p>
+            </button>
+
+          </a>
+
+        </section>
+        <section className="upper-link">
+          <p><FontAwesomeIcon icon={faFileAlt} className="document-icon" /> </p>
+          <a href="https://f005.backblazeb2.com/file/ICOGES-Conference/Brochure+ICOGES-2024.pdf" target="_blank">
+            <button className="button-85">
+              <p>Download Brochure Here</p>
+            </button>
+
+          </a>
+        </section>
+        <section className="upper-link">
+          <a href="/#/importantdates">
+            <button className="button-85">
+              Important Dates
+            </button>
+          </a>
+        </section>
+        
+        <img className="pdeu-logo" src={logo} alt="Logo" />
       </div>
-    </div>
-  
-      <nav className="navbar">
-        <div className="logo">
-          <div className="logo-container">
+      <div>
+        <div className="header-1">
+          <section className="header-inner-section">
             <img className="icghd-logo" src={logo1} alt="Logo2" />
-            <img className="pdeu-logo" src={logo} alt="Logo" />
-          </div>
+            <p className='text-upper'>
+              <span>ICOGES 2024 | </span>
+              <span>16 - 17 February 2024</span>
+            </p></section>
         </div>
+      </div>
+
+      <nav className="navbar">
+        {/* <div className="logo">
+          <div className="logo-container">
+          </div>
+        </div> */}
         <div className="links">
           {/* <ul className="nav-up">
             <li>
@@ -97,14 +149,37 @@ export default function Navbar() {
           </ul> */}
 
           <ul className="nav-main-menu">
+              
             <li className="nav-item">
               <Link to="/" className="nav-link">
                 HOME
               </Link>
             </li>
-            <li className="nav-item">
+              <li class="dropdown">
+                <div class="dropbtn">
+                  About Conference
+                  <FontAwesomeIcon
+                    icon={faChevronDown}
+                    className="down-arrow-icon"
+                  />
+                </div>
+                <div class="dropdown-content">
+                  <Link to="/ICOGES" className="nav-link">
+                    ICOGES 2024
+                  </Link>
+                  <Link to="/themes" className="nav-link">
+                    Theme of The Conference
+                  </Link>
+                </div>
+              </li>
+            {/* <li className="nav-item">
               <Link to="/themes" className="nav-link">
                 THEME
+              </Link>
+            </li> */}
+            <li className="nav-item">
+              <Link to="/committee" className="nav-link">
+                COMMITTEES
               </Link>
             </li>
             <li className="nav-item">
@@ -112,11 +187,7 @@ export default function Navbar() {
                 KEYNOTE SPEAKERS
               </Link>
             </li>
-            <li className="nav-item">
-              <Link to="/committee" className="nav-link">
-                COMMITTEES
-              </Link>
-            </li>
+            
             <li className="nav-item">
               {/* <div className="dropdown">
                 <button className="dropdown-button">
@@ -155,7 +226,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-            <Link to="/sponsorship" className="nav-link">
+              <Link to="/sponsorship" className="nav-link">
                 SPONSORSHIP
               </Link>
             </li>
