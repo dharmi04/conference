@@ -1,11 +1,11 @@
 import React from "react"
 import "../assets/css/main.css"
-import img from '../assets/images/Logos/logo-2.jpeg'
-import img2 from '../assets/images/Logos/logo-3.jpeg'
-import img3 from '../assets/images/Logos/logo-4.jpeg'
-import img4 from '../assets/images/Logos/logo-5.jpeg'
+import img from '../assets/images/Logos-old/logo-2.jpeg'
+import img2 from '../assets/images/Logos-old/logo-3.jpeg'
+import img3 from '../assets/images/Logos-old/logo-4.jpeg'
+import img4 from '../assets/images/Logos-old/logo-5.jpeg'
 import logo from '../assets/images/pdeu-logo.png'
-import img5 from '../assets/images/Logos/mat-corr.jpeg'
+import img5 from '../assets/images/Logos-old/mat-corr.jpeg'
 
 export default function Main() {
   return (

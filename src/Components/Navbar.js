@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import logo from "../assets/images/pdeu-logo.png";
 import logo1 from "../assets/images/conf-logo.png";
-import SOET from '../assets/images/Logos/SOET.jpeg';
+import SOET from '../assets/images/Logos-old/SOET.jpeg';
 // import logo2 from "../assets/images/logo2.png"
 import "../assets/css/navbar.css"
 import { Link } from "react-router-dom"
