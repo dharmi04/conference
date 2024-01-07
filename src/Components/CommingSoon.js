@@ -10,16 +10,16 @@ const CommingSoon = () => {
       <Navbar />
       <div className="heroSection">
         {/* <hr /> */}
-        <p className="greenHydrogenText">Green Hydrogen</p>
+        <p className="greenHydrogenText">ICOGES 2024</p>
         <p className="mainText">Coming Soon...</p>
-        <div className="forDummyText">
+        {/* <div className="forDummyText">
           <p className="dummyText">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea numquam
             alias voluptatum ipsam iste nam tempora enim, cum temporibus esse
             unde aliquid, fugit inventore, qui amet quos. Et, eum explicabo.
             Lorem ipsum dolor sit Voluptates.
           </p>
-        </div>
+        </div> */}
         <div className="Button">
           <a href="/conference">
             <button className="ButtonStyle">Go Back</button>

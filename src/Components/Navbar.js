@@ -155,9 +155,10 @@ export default function Navbar() {
                 HOME
               </Link>
             </li>
+            <li className="nav-item">
               <li class="dropdown">
                 <div class="dropbtn">
-                  About Conference
+                  ABOUT CONFERENCE
                   <FontAwesomeIcon
                     icon={faChevronDown}
                     className="down-arrow-icon"
@@ -172,12 +173,14 @@ export default function Navbar() {
                   </Link>
                 </div>
               </li>
+            </li>
+              
             {/* <li className="nav-item">
               <Link to="/themes" className="nav-link">
                 THEME
               </Link>
             </li> */}
-
+            <li className="nav-item">
               <li class="dropdown">
                 <div class="dropbtn">
                   COMMITTEE
@@ -204,12 +207,43 @@ export default function Navbar() {
                   </Link>
                 </div>
               </li>
+            </li>
+              
             
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="/keynotespeakers" className="nav-link">
                 KEYNOTE SPEAKERS
               </Link>
+            </li> */}
+            <li className="nav-item">
+              <li class="dropdown">
+                <div class="dropbtn">
+                  SPEAKERS
+                  <FontAwesomeIcon
+                    icon={faChevronDown}
+                    className="down-arrow-icon"
+                  />
+                </div>
+                <div class="dropdown-content">
+                  {/* <Link to="/Planary" className="nav-link">
+                    Planary Talks
+                  </Link> */}
+                  <Link to="/Keynote" className="nav-link">
+                    SPEAKERS  
+                  </Link>
+                  <Link to="/sessions" className="nav-link">
+                    Session-lead lectures
+                  </Link>
+                  <Link to="/Presentors" className="nav-link">
+                    Oral Presenters
+                  </Link>
+                  <Link to="/OralPresentors" className="nav-link">
+                    Poster Presentess
+                  </Link>
+                </div>
+              </li>
             </li>
+              
             
             <li className="nav-item">
               {/* <div className="dropdown">

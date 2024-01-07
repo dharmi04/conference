@@ -20,6 +20,11 @@ import Organizing from "./Pages/Organizing"
 import International from "./Pages/International"
 import National from "./Pages/National"
 import Students from "./Pages/Students"
+import Planary from "./Pages/Planary"
+import SeesionLead from "./Pages/SessionLead"
+import OralPresentors from './Pages/OralPresentors'
+import PosterPresentors from './Pages/PosterPresentors'
+
 function App() {
   return (
     // <HashRouter>
@@ -56,6 +61,11 @@ function App() {
       <Route exact path="/international" element={<International />} />
       <Route exact path="/national" element={<National />} />
       <Route exact path="/students" element={<Students />} />
+      <Route exact path="/Planary" element={<Planary />} />
+      <Route exact path="/Keynote" element={<Keynote />} />
+      <Route exact path="/sessions" element={<SeesionLead />} />
+      <Route exact path="/Presentors" element={<OralPresentors />} />
+      <Route exact path="/OralPresentors" element={<PosterPresentors />} />
     </Routes>
     // </BrowserRouter>
   )

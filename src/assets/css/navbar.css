@@ -1,10 +1,11 @@
 .header-1{
-  background-color: #97d5ff;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-content: center;
   /* margin: 0px;
   padding: 0px; */
+  color: black;
   padding-left: 1.5rem;
 }
 .header-inner-section{
@@ -37,11 +38,11 @@
 }
 .text-upper{
   padding: 3px;
-  color: white;
+  color: #12486B;
   margin: 0px;
-  font-size: 1.3rem;
+  font-size: 2.3rem;
   /* padding: 1rem 1rem; */
-  font-weight: 600;
+  font-weight: 800;
   margin-left: 1.2rem;
 }
 
