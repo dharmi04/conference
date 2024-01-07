@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react"
 import logo from "../assets/images/pdeu-logo.png";
 import logo1 from "../assets/images/conf-logo.png";
+import SOET from '../assets/images/Logos/SOET.jpeg';
 // import logo2 from "../assets/images/logo2.png"
 import "../assets/css/navbar.css"
 import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons"
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
+import { faChevronDown, faEnvelope, faFileAlt, faCalendar } from "@fortawesome/free-solid-svg-icons";
 import Theme from "./Theme"
 import Marquee from "react-fast-marquee"
 import Update from "./Update"
@@ -109,6 +108,7 @@ export default function Navbar() {
           </a>
         </section>
         <section className="upper-link">
+            <p>  <FontAwesomeIcon icon={faCalendar} /></p>
           <a href="/#/importantdates">
             <button className="button-85">
               Important Dates
@@ -116,7 +116,7 @@ export default function Navbar() {
           </a>
         </section>
         
-        <img className="pdeu-logo" src={logo} alt="Logo" />
+        
       </div>
       <div>
         <div className="header-1">
@@ -125,7 +125,12 @@ export default function Navbar() {
             <p className='text-upper'>
               <span>ICOGES 2024 | </span>
               <span>16 - 17 February 2024</span>
-            </p></section>
+            </p>
+          </section>
+          <section className="logos-section">
+            <img className="pdeu-logo" src={logo} alt="Logo" />
+            <img className="pdeu-logo" src={SOET} alt="SOET-Logo" />
+          </section>
         </div>
       </div>
 

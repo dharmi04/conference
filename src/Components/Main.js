@@ -4,6 +4,7 @@ import img from '../assets/images/Logos/logo-2.jpeg'
 import img2 from '../assets/images/Logos/logo-3.jpeg'
 import img3 from '../assets/images/Logos/logo-4.jpeg'
 import img4 from '../assets/images/Logos/logo-5.jpeg'
+import logo from '../assets/images/pdeu-logo.png'
 import img5 from '../assets/images/Logos/mat-corr.jpeg'
 
 export default function Main() {
@@ -35,40 +36,24 @@ export default function Main() {
       </div> */}
       <div className="HeroSection">
         <p className="MainHeading1">
-        The International Conference on Oil & Gas for Energy Security
+          International Conference on Oil & Gas for Energy Security
           {/* </p> */}
           {/* <p className="MainHeading2"> */}
         </p>
         <p className="SecondSmallText">
-          February 16  - 17 <sup>th </sup>, 2024
+          ICOGES 2024
         </p>
-        <p className="ThirdSmallText">
+        {/* <p className="ThirdSmallText">
           Pandit Deendayal Energy University
           <br />
           Gandhinagar, 
           Gujarat, <br /> India
-        </p>
+        </p> */}
         <section className="logo-section-home">
-          <img
-            src={img}
-            className="logos-main"
-          />
-          <img
-            src={img2}
-            className="logos-main"
-          />
-          <img
-            src={img3}
-            className="logos-main"
-          />
-          <img
-            src={img4}
-            className="logos-main"
-          />
-          <img
-            src={img5}
-            className="logos-main"
-          />
+          <section className="organized-by">
+            <p>Organized By</p>
+            <img src={logo} />
+          </section>
         </section>
       </div>
     </div>
