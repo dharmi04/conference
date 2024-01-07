@@ -2,14 +2,32 @@ import React from "react"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 import "../assets/css/section_2.css"
+import image from '../assets/images/keynote-speakers/Dr Prashant Jadhawar.jpg'
+import image2 from '../assets/images/keynote-speakers/Srikanta Mishra.jpg'
+import image3 from '../assets/images/keynote-speakers/Subrata Borgohain Gogoi cropped.jpg'
 
 export default function Keynote() {
   return (
     <div>
       <Navbar />
-      <div className="heading"> Keynote Speakers</div>
+      {/* <div className="heading"> Keynote Speakers</div> */}
 
       <div className="card-container">
+
+      <div className="cards">
+          <img
+            // src="keynote-speakers/image-10.png"
+            src={image2}
+            // alt="speaker"
+            className="speaker-img"
+          />
+          <div className="speaker-information">
+            <h1>	Prof. Srikanta Mishra </h1>
+            <h4> Harold Vance Department of Petroleum Engineering, Texas A&M University, USA
+          </h4>
+            {/* <p>Dean Placement</p> */}
+          </div>
+        </div>
         <div className="cards">
           <div className="img-container">
             <img
@@ -38,10 +56,10 @@ export default function Keynote() {
           <div className="speaker-information">
             <h1>	Prof. Sandeep D. Kulkarni</h1>
             <h4>Deysarkar Centre of Excellence in Petroleum Engineering</h4>
-            <h4>IIT Kharagh4ur, India.</h4>
+            <h4>IIT Kharaghpur, India</h4>
           </div>
         </div>
-        <div className="cards">
+        {/* <div className="cards">
           <div className="img-container">
             <img
               src="keynote-speakers/image-3.png"
@@ -50,14 +68,12 @@ export default function Keynote() {
             />
           </div>
           <div className="speaker-information">
-            <h1>Prof. Subrata Borgohain Gogoi, </h1>
+            <h1>Prof. Subrata Borgohain Gogoi </h1>
             <h4>
             Department of Petroleum Technology, Dibrugarh University, Assam, India.
             </h4>
-             {/* <p>Dean, Faculty of Earth Sciences and Energy
-              Professor & Head, Department of Petroleum Technology</p> */}
           </div>
-        </div>
+        </div> */}
         <div className="cards">
           <img
             src="keynote-speakers/image-4.png"
@@ -89,7 +105,7 @@ export default function Keynote() {
             className="speaker-img"
           />
           <div className="speaker-information">
-            <h1>Professor Anirbid Sircar</h1>
+            <h1>Prof. Anirbid Sircar</h1>
             <h4>Pandit Deendayal Energy University, Gandhinagar, India  </h4>
             {/* <p>Pandit Deendayal Energy University </p> */}
           </div>
@@ -113,21 +129,39 @@ export default function Keynote() {
             className="speaker-img"
           />
           <div className="speaker-information">
-            <h1>	Prof. Prem Bikkina, </h1>
+            <h1>	Prof. Prem Bikkina </h1>
             <h4>Department of Chemical Engineering, Oklahoma State University, USA</h4>
             {/* <p>Dean Placement</p> */}
           </div>
         </div>
         <div className="cards">
           <img
-            src="keynote-speakers/image.png"
+            // src="keynote-speakers/image-10.png"
+            src={image}
             // alt="speaker"
             className="speaker-img"
           />
           <div className="speaker-information">
-            <h1>	Prof. Prashant Jadhawar, Department of Petroleum Engineering, </h1>
-            <h4>University of Aberdeen, UK
-</h4>
+            <h1>	Prof. Prashant Jadhawar </h1>
+            <h4> Department of Petroleum Engineering, University of Aberdeen, UK
+          </h4>
+            {/* <p>Dean Placement</p> */}
+          </div>
+        </div>
+
+        
+
+        <div className="cards">
+          <img
+            // src="keynote-speakers/image-10.png"
+            src={image3}
+            // alt="speaker"
+            className="speaker-img-new"
+          />
+          <div className="speaker-information">
+            <h1>	Prof. Subrata Borgohain Gogoi </h1>
+            <h4> Department of Petroleum Technology, Dibrugarh University, Assam, India
+          </h4>
             {/* <p>Dean Placement</p> */}
           </div>
         </div>
@@ -144,14 +178,7 @@ export default function Keynote() {
              <p>Some text</p>
            </div>
          </div> */}
-
-
-
-
-
-
       </div>
-
       <Footer />
     </div>
 

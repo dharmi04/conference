@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="parts">
           <ul>
             <li>
-            INTERNATIONAL CONFERENCE ON OIL & GAS FOR ENERGY SECURITY
+            {/* INTERNATIONAL CONFERENCE ON OIL & GAS FOR ENERGY SECURITY */}
             </li>
           </ul>
         </div>
@@ -20,21 +20,33 @@ export default function Footer() {
           <ul>
     
             <li>
-              <a href="https://conference.icghgd.com/committee">Committee </a>
+              <a href="/#/sponsorship">SPONSORSHIP </a>
             </li>
           </ul>
         </div>
 
         <div className="parts_l">
           <ul>
-            <li>Blog</li>
-            <li>Sponsor</li>
+            <li>
+              <a href="/#/registration">
+                REGISTRATION
+              </a>
+              </li>
+            {/* <li>Sponsor</li> */}
           </ul>
         </div>
         <div className="parts_l">
           <ul>
-            <li>Anti Harrassement Policy</li>
-            <li>Privacy Policy</li>
+            <li>
+              <a href="/#/callforpapers">
+                 CALL FOR PAPERS
+              </a>
+              </li>
+            <li>
+              <a href="/#/importantdates">
+                IMPORTANT DATES
+              </a>
+              </li>
           </ul>
         </div>
       </div>

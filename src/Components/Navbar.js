@@ -121,14 +121,18 @@ export default function Navbar() {
       <div>
         <div className="header-1">
           <section className="header-inner-section">
-            <img className="icghd-logo" src={logo1} alt="Logo2" />
+            <Link to="/"><img className="icghd-logo" src={logo1} alt="Logo2" /></Link>
+            
             <p className='text-upper'>
               <span>ICOGES 2024 | </span>
               <span>16 - 17 February 2024</span>
             </p>
           </section>
           <section className="logos-section">
-            <img className="pdeu-logo" src={logo} alt="Logo" />
+            <a href="/">
+              <img className="pdeu-logo" src={logo} alt="Logo" />
+            </a>
+            
             <img className="pdeu-logo" src={SOET} alt="SOET-Logo" />
           </section>
         </div>
@@ -174,7 +178,7 @@ export default function Navbar() {
                     ICOGES 2024
                   </Link>
                   <Link to="/themes" className="nav-link">
-                    Theme of The Conference
+                    Theme of the Conference
                   </Link>
                 </div>
               </li>
@@ -234,16 +238,17 @@ export default function Navbar() {
                     Planary Talks
                   </Link> */}
                   <Link to="/Keynote" className="nav-link">
-                    SPEAKERS  
+                    
+                    Speakers
                   </Link>
                   <Link to="/sessions" className="nav-link">
                     Session-lead lectures
                   </Link>
                   <Link to="/Presentors" className="nav-link">
-                    Oral Presenters
+                    Oral Presentataions
                   </Link>
                   <Link to="/OralPresentors" className="nav-link">
-                    Poster Presentess
+                    Poster Presentataions
                   </Link>
                 </div>
               </li>
@@ -282,11 +287,11 @@ export default function Navbar() {
                 </div>
               </li>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="/news" className="nav-link">
                 NEWS
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link to="/sponsorship" className="nav-link">
                 SPONSORSHIP

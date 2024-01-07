@@ -29,6 +29,10 @@ a {
   display: flex;
   gap: 40%;
 }
+.parts_l a{
+  text-decoration: none;
+  color: white;
+}
 .footer-p2 {
   /* padding:8% 86px 12% 4%; */
   padding: 50px;
