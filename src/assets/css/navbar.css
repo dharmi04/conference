@@ -51,6 +51,13 @@
   margin-left: 1.2rem;
 }
 
+@media (max-width: 480px){
+  .text-upper{
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+}
+
 .header {
   background-color: #12486B;
   opacity: 1;
@@ -307,6 +314,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  
 }
 
 .button-85:before {
@@ -336,7 +344,40 @@
   transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
 }
-
+@media only screen and (max-width: 480px) {
+  .upper-link a{
+    font-size: 2px;
+  }
+  .upper-link p{
+    font-size: 0.4rem;
+  }
+  .button-85{
+    padding: 0.4px;
+  }
+  .most-upper{
+    padding: 6px;
+  }
+  .upper-link{
+    padding: 6px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .upper-link a{
+    font-size: 2px;
+  }
+  .upper-link p{
+    font-size: 0.3rem;
+  }
+  .button-85{
+    padding: 0.3px;
+  }
+  .most-upper{
+    padding: 6px;
+  }
+  .upper-link{
+    padding: 1px;
+  }
+}
 @keyframes glowing-button-85 {
   0% {
     background-position: 0 0;
@@ -348,6 +389,15 @@
     background-position: 0 0;
   }
 }
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .button-85 {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    padding: 0.4em 1.5em; /* Adjust padding for smaller screens */
+  }
+}
+
 
 .button-85:after {
   z-index: -1;
@@ -363,17 +413,21 @@
 
 @media (max-width: 900px) {
   .pdeu-logo {
-    width: 200px;
+    width: 150px;
   }
 }
 @media (max-width: 480px) {
   .icghd-logo {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
   }
 
   .pdeu-logo {
-    width: 150px;
+    width: 50px;
+  }
+  .upper-link a{
+    margin: 0px;
+    font-size: 0.7rem;
   }
 }
 
