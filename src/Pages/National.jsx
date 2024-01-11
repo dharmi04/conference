@@ -25,14 +25,14 @@ const National = () => {
                     Dr. Anand Gupta , <br />
                     <h3 className="committe-location">ONGC India </h3>
                 </div>
-                <div className="subheading-details">
+                {/* <div className="subheading-details">
                     Dr. Ashkan Jahanbani Ghahfarokhi, <br />
                     <h3 className="committe-location">NTNU Norway</h3>
-                </div>
-                <div className="subheading-details">
+                </div> */}
+                {/* <div className="subheading-details">
                     Dr. Francisco Arguelles Vivas, <br />
                     <h3 className="committe-location">ExxonMobil, Texas, USA</h3>
-                </div>
+                </div> */}
                 <div className="subheading-details">
                     Mr. Sujit Mitra, <br />
                     <h3 className="committe-location">IRS, ONGC India</h3>
