@@ -72,9 +72,9 @@ export default function CallForPaper() {
       <p className="">
        <h1 className="callforpaper-heading">Important Dates</h1> 
        <div className="imp-dates">
-       <p>Call for Abstracts deadline: 10 Jan 2024</p>
-      <p>Acceptance notification: 15 Jan 2024</p>
-      <p>Early registration deadline: 20 Jan 2024</p>
+       <p>Call for Abstracts deadline: 15 Jan 2024</p>
+      <p>Acceptance notification: 20 Jan 2024</p>
+      <p>Early registration deadline: 25 Jan 2024</p>
       <p>Regular registration deadline: 30 Jan 2024</p>
       <p>Conference dates:  16 and 17 Feb 2024</p>
        </div>
