@@ -108,10 +108,10 @@ export default function Navbar() {
           </a>
         </section>
         <section className="upper-link">
-            <p>  <FontAwesomeIcon icon={faCalendar} /></p>
+            <p> <FontAwesomeIcon icon={faCalendar} /></p>
           <a href="/#/importantdates">
             <button className="button-85">
-              Important Dates
+              <p>Important Dates</p>
             </button>
           </a>
         </section>

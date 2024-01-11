@@ -281,12 +281,18 @@ tr {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .logos-main{
     max-width: 20vw;
     margin-bottom: 2rem;
   }
   .logo-section-home {
     gap: 1.3rem;
+  }
+  .MainHeading1{
+    font-size:30px ;
+  }
+  .SecondSmallText{
+    font-size: 36px;
   }
 }
