@@ -15,50 +15,54 @@ const Students = () => {
                     <h3 className="committe-location">Nguessan Kouassi Jean Patrick</h3>
                 </div>
                 <div className="subheading-details">
-                    Prof. T.P Singh, <br />
-                    <h3 className="committe-location">Dean Student Affairs, PDEU Gandhinagar</h3>
+                    
+                    <h3 className="committe-location">Daksh Joshi</h3>
                 </div>
                 <div className="subheading-details">
-                    Prof. Surendra Singh Kachhwaha, <br />
-                    <h3 className="committe-location">Dean SOT, PDEU Gandhinagar</h3>
+                    
+                    <h3 className="committe-location">Ali Almohammed</h3>
                 </div>
                 <div className="subheading-details">
-                    Dr. Bhawanisingh Desai, <br />
-                    <h3 className="committe-location">Dean R&D, PDEU Gandhinagar</h3>
+                    <h3 className="committe-location">Pawan Kumar Tripathi</h3>
                 </div>
                 <div className="subheading-details">
-                    Dr. Praghnesh Bhatt, <br />
-                    <h3 className="committe-location">Dean SOET, PDEU Gandhinagar</h3>
+                    <h3 className="committe-location">Urvil Patel</h3>
                 </div>
                 <div className="subheading-details">
-                    Dr. Vishvesh J Badheka, <br />
-                    <h3 className="committe-location">Dean Academic Affairs, PDEU Gandhinagar</h3>
+                    <h3 className="committe-location">Husam Mohammed Saleh Alziyadi</h3>
                 </div>
                 <div className="subheading-details">
-                    Dr. Rajesh Patel, <br />
-                    <h3 className="committe-location">Dean Admission, PDEU Gandhinagar</h3>
+                    <h3 className="committe-location">Konan Kouassi Salomon</h3>
                 </div>
                 <div className="subheading-details">
-                    Prof. R.K.Vij, <br />
-                    <h3 className="committe-location">Dean of Placements, PDEU Gandhinagar</h3>
+                    <h3 className="committe-location">Harsh Patni</h3>
                 </div>
                 <div className="subheading-details">
-                    Prof. Ranjan Sengupta, <br />
-                    <h3 className="committe-location">PDEU Gandhinagar</h3>
+                    <h3 className="committe-location">Daivom Joshi</h3>
                 </div>
                 <div className="subheading-details">
-                    Dr. Ramesh Guduru, <br />
-                    <h3 className="committe-location">PDEU Gandhinagar</h3>
+                    <h3 className="committe-location">Vatsal Patel</h3>
                 </div>
                 <div className="subheading-details">
-                    Dr. Nitin Chaudhari,
-                    <br />
-                    <h3 className="committe-location">PDEU Gandhinagar</h3>
+                    <h3 className="committe-location">Tithee Bhavsar</h3>
                 </div>
                 <div className="subheading-details">
-                    Dr. Abhijit D Ray,
-                    <br />
-                    <h3 className="committe-location">PDEU Gandhinagar</h3>
+                    <h3 className="committe-location">Devarsh Soni</h3>
+                </div>
+                <div className="subheading-details">
+                    <h3 className="committe-location">Pratham Yadav</h3>
+                </div>
+                <div className="subheading-details">
+                    <h3 className="committe-location">Megh Soni</h3>
+                </div>
+                <div className="subheading-details">
+                    <h3 className="committe-location">Chimakurti Prakash</h3>
+                </div>
+                <div className="subheading-details">
+                    <h3 className="committe-location">Kanchal Soni</h3>
+                </div>
+                <div className="subheading-details">
+                    <h3 className="committe-location">Deep Khanpara</h3>
                 </div>
             </div>
             <Footer />

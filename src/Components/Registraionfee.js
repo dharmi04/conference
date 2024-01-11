@@ -102,6 +102,13 @@ const Registraionfee = () => {
                 <br />
                 <sup>Select "International Conference on Oil & Gas for Energy Security (ICOGES-2024)"</sup>
               </div>
+              <div className="payment-text">
+                <button className="button-29">
+                  <a href="https://forms.gle/G4299SBBQBwUXwsA6" target="_blank">
+                    Registration
+                  </a>
+                </button>
+              </div>
             </div>
           </div>
 
