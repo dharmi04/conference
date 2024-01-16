@@ -58,6 +58,7 @@ const Management = () => {
                      <br />
                      SoET, PDEU
                      <br />
+                     <br />
 
                 </div>
             </div>
