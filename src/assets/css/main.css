@@ -111,12 +111,13 @@ tr {
   justify-content: center;
   gap: 3rem ;
   margin-bottom: 4rem;
-  width:50%;
-  height: auto;
+  
 }
 
 .logo-section-home img{
   object-fit: contain;
+  width:50%;
+  height: auto;
 }
 .logos-main{
   max-width: 10vw;
