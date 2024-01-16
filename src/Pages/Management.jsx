@@ -19,10 +19,10 @@ const Management = () => {
                     <h4>PATRONS</h4>
                     Prof. Anirbid B Sircar,
                     <br />
-                    Director, SOET, PDEU
+                    Director, SoET, PDEU
                     <br />
                     <p></p>
-                    Col (Dr) Rakesh Kumar Shrivastawa
+                    Col. (Dr.) Rakesh Kumar Shrivastawa
                     <br />
                     Registrar, PDEU
                 </div>
@@ -30,23 +30,23 @@ const Management = () => {
                     <h4>CHAIRS</h4>
                     Dr. Uttam Kumar Bhui,
                     <br />
-                    HOD PE, SOET, PDEU
+                    HOD-PE, SoET, PDEU
                     <br />
                     <p></p>
                     Dr. Bhawanisingh Desai, <br />
-                    Dean R & D, PDEU
+                    Dean R&D, PDEU
                 </div>
                 <div className="names">
                     <h4>CONVENER</h4>
                     Dr. Achinta Bera,
                     <br />
-                    SOET, PDEU
+                    SoET, PDEU
                 </div>
                 <div className="names">
                     <h4>CO-CONVENER</h4>
                     Dr. Amit Verma,
                     <br />
-                    SOET, PDEU
+                    SoET, PDEU
                     <br />
                     Dr. Paul Naveen
                     <br />
@@ -55,6 +55,10 @@ const Management = () => {
                 <div className="names">
                     <h4>TREASURERS</h4>
                     Gaurav Hazarika
+                     <br />
+                     SoET, PDEU
+                     <br />
+
                 </div>
             </div>
             <Footer />
