@@ -35,20 +35,29 @@ export default function Footer() {
             {/* <li>Sponsor</li> */}
           </ul>
         </div>
+
         <div className="parts_l">
           <ul>
             <li>
               <a href="/#/callforpapers">
-                 CALL FOR PAPERS
+                CALL FOR PAPERS
               </a>
               </li>
+            
+          </ul>
+        </div>
+
+        <div className="parts_l">
+          <ul>
             <li>
               <a href="/#/importantdates">
                 IMPORTANT DATES
               </a>
               </li>
+            
           </ul>
         </div>
+       
       </div>
       <div className="footer-p1">
         <div className="conf">
