@@ -53,6 +53,7 @@ export default function Main() {
           <section className="organized-by">
             <p>Organized By</p>
             <h3>Department of Petroleum Engineering</h3>
+          </br>
             <img src={logo} />
             <h3>Pandit Deendayal Energy University</h3>
             <h3>Gandhinagar</h3>
